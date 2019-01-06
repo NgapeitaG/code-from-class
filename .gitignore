@@ -121,3 +121,6 @@ dev.sqlite3
 
 # Something Rich did in another repo (I trust him)
 tags
+
+# Ignore recorded lectures
+*.mkv
