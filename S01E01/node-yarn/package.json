@@ -1,0 +1,10 @@
+{
+  "name": "node-yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "cowsay": "^1.4.0"
+  }
+}
