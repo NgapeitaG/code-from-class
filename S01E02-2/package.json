@@ -1,0 +1,13 @@
+{
+  "name": "cowsay-demo",
+  "version": "1.0.0",
+  "description": "Cowsay demo for Harakeke-2019 cohort",
+  "main": "index.js",
+  "author": "Bryce",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "colors": "^1.3.3",
+    "cowsay": "^2.4.0"
+  }
+}
