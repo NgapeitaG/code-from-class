@@ -1,0 +1,12 @@
+{
+  "name": "jest-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest --watch --noStackTrace"
+  }
+}
