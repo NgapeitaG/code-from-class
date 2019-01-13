@@ -7,3 +7,6 @@
 * Episode 3: [Fun with arrays and testing!](S01E03)
 * Episode 4: [The wonderful world of TDD (Test-driven development)](S01E04)
 * Episode 5: [My first web server (Express.js, whhaaatttt???)](S01E05)
+
+## Season Two
+* Episode 1-1: [What the heck is a callback?](S02E01-1)
