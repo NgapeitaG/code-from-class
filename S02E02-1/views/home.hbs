@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+</head>
+<body>
+  <h1>Hi there {{user.name}}</h1>
+  {{#if showLoves}}
+    <p>So, you love the {{user.loves}}?</p>
+  {{else}}
+    <p>You don't love anything?!</p>
+  {{/if}}
+
+  <h2>Friends</h2>
+  <ul>
+    {{#each user.friends}}
+    <li>{{name}}</li>
+    {{/each}}
+  </ul>
+
+  <h2>Colours</h2>
+  <ol>
+    {{#each colors}}
+    <li>{{this}}</li>
+    {{/each}}
+  </ol>
+
+  {{> footer}}
+</body>
+</html>

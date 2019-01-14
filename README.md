@@ -11,3 +11,4 @@
 ## Season Two
 * Episode 1-1: [What the heck is a callback?](S02E01-1)
 * Episode 1-2: [Testing callback functions](S02E01-2)
+* Episode 2-1: [Server-side rendering with Handlebars](S02E02-1)
