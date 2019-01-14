@@ -43,5 +43,5 @@
 * Add a conditional with `{{#if}}`
 * Add a loop with `{{#each}}`
 * Add a partial with `{{> partialName}}`
-* Add a layoit in the `views/layouts` folder
+* Add a layout in the `views/layouts` folder
   - use `{{{body}}}` to define the location of the route template
