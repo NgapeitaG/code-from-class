@@ -10,3 +10,4 @@
 
 ## Season Two
 * Episode 1-1: [What the heck is a callback?](S02E01-1)
+* Episode 1-2: [Testing callback functions](S02E01-2)
