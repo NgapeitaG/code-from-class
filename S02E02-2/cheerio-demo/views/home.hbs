@@ -1,0 +1,9 @@
+{{> welcome}}
+<ul class="students">
+  {{#each cohort}}
+  <li style="color: {{color}}">{{name}}</li>
+  {{/each}}
+</ul>
+{{#if isCool}}
+<p>This group is really cool!</p>
+{{/if}}
