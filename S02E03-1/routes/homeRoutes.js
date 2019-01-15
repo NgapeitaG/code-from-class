@@ -7,6 +7,7 @@ const router = express.Router()
 module.exports = router
 
 // Routes
+// GET /
 router.get('/', (req, res) => {
   console.log('Root route hit')
 
@@ -27,11 +28,13 @@ router.get('/', (req, res) => {
   })
 })
 
+// GET /blog
 router.get('/blog', (req, res) => {
   console.log('/blog route hit')
   res.send('<h1>EDA rocks!</h1>')
 })
 
+// GET /:name
 router.get('/:name', (req, res) => {
   const name = req.params.name
   res.send(`Hello ${name}!`)

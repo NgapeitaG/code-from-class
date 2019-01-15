@@ -1,5 +1,10 @@
 // Require modules
 const server = require('express')()
+
+// Line 2 is shorthand for the following:
+// const express = require('express')
+// const server = express()
+
 const hbs = require('express-handlebars')
 
 // Export server
