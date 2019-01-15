@@ -13,3 +13,4 @@
 * Episode 1-2: [Testing callback functions](S02E01-2)
 * Episode 2-1: [Server-side rendering with Handlebars](S02E02-1)
 * Episode 2-2: [Route testing 101 (Supertest, Cheerio)](S02E02-2)
+* Episode 3-1: [Wednesday drive down the routing highway (Express-router)](S02E03-1)
