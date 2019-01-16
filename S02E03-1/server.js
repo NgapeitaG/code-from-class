@@ -22,5 +22,6 @@ const hbsConfig = {
 server.engine('hbs', hbs(hbsConfig))
 server.set('view engine', 'hbs')
 
+// Use routers
 server.use('/', homeRoutes)
 server.use('/portfolio', portfolioRoutes)

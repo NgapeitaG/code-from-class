@@ -6,7 +6,6 @@ module.exports = router
 // Routes
 // GET /portfolio
 router.get('/', (req, res) => {
-  console.log('/ route hit')
   res.send('Cool things are happening. We\'re learning.')
 })
 
