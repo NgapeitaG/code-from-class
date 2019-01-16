@@ -1,4 +1,3 @@
-// const colorsJSON = require('../colors.json')
 const fs = require('fs')
 const path = require('path')
 const express = require('express')
@@ -9,28 +8,23 @@ module.exports = router
 // Routes
 // GET /
 router.get('/', (req, res) => {
-  console.log('Root route hit')
-
   const filePath = path.join(__dirname, '../colors.json')
 
-  fs.readFile(filePath, (err, contents) => {
+  fs.readFile(filePath, 'utf8', (err, contents) => {
     if (err) return res.send(`Something went wrong...\n${err}`)
 
-    console.log(contents)
     const colors = JSON.parse(contents)
-    console.log(colors)
-
     const data = {
       title: 'Harakeke',
       colors: colors
     }
+
     res.render('home', data)
   })
 })
 
 // GET /blog
 router.get('/blog', (req, res) => {
-  console.log('/blog route hit')
   res.send('<h1>EDA rocks!</h1>')
 })
 
