@@ -15,3 +15,6 @@
 * Episode 2-2: [Route testing 101 (Supertest, Cheerio)](S02E02-2)
 * Episode 3-1: [Wednesday drive down the routing highway (Express-router)](S02E03-1)
 * Episode 3-2: [POSTing data to the server](S02E03-2)
+
+## Season Three
+* Episode 3-1: [See, databases CAN be fun!](S03E01-1)
