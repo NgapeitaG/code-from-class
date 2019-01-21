@@ -17,4 +17,5 @@
 * Episode 3-2: [POSTing data to the server](S02E03-2)
 
 ## Season Three
-* Episode 3-1: [See, databases CAN be fun!](S03E01-1)
+* Episode 1-1: [See, databases CAN be fun!](S03E01-1)
+* Episode 1-2: [Promises](S03E01-2)
