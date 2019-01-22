@@ -20,3 +20,4 @@
 * Episode 1-1: [See, databases CAN be fun!](S03E01-1)
 * Episode 1-2: [Promises](S03E01-2)
 * Episode 2-1: [Connecting our data with joins](S03E02-1)
+* Episode 2-2: [The time I became one with everything (many-to-many joins)](S03E02-2)
