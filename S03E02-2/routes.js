@@ -25,7 +25,33 @@ router.get('/drivers', (req, res) => {
     .catch(displayError)
 
   function displayDrivers (drivers) {
+    console.log(drivers)
     res.render('drivers', { drivers })
+  }
+
+  function displayError (err) {
+    res.status(500).send(err.message)
+  }
+})
+
+router.get('/driver/:id', (req, res) => {
+  const driverId = Number(req.params.id)
+  db.getDriver(driverId)
+    .then(formatData)
+    .then(displayDriver)
+    .catch(displayError)
+
+  function formatData (driver) {
+    const data = {
+      name: driver[0].name,
+      age: driver[0].age,
+      vehicles: driver.map(el => el.numberPlates)
+    }
+    return data
+  }
+
+  function displayDriver (driver) {
+    res.render('driver', driver)
   }
 
   function displayError (err) {

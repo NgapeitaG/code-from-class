@@ -123,3 +123,6 @@ function formatData (driver) {
   }
 }
 ```
+
+## No snake case in JavaScript!
+Change getDriver to use alias for number_plate

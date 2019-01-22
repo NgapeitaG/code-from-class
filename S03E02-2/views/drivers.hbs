@@ -2,7 +2,9 @@
 <ul>
   {{#each drivers}}
   <li>
-    {{name}}, {{age}}
+    <a href="/driver/{{id}}">{{name}}, {{age}}</a>
   </li>
   {{/each}}
 </ul>
+
+<a href="javascript:history.back()">Go back</a>
