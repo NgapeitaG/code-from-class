@@ -22,3 +22,4 @@
 * Episode 2-1: [Connecting our data with joins](S03E02-1)
 * Episode 2-2: [The time I became one with everything (many-to-many joins)](S03E02-2)
 * Episode 3-1: [Database relationships](S03E03-1)
+* Episode 4: [Prototypal Inheritence](S03E04)
