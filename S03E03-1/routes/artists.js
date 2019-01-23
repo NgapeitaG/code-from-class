@@ -7,7 +7,6 @@ const router = express.Router()
 router.get('/', (req, res) => {
   db.getArtistAlbums()
     .then(artistAlbums => {
-      console.log(artistAlbums)
       res.render('index', {artistAlbums})
     })
     .catch(err => {
