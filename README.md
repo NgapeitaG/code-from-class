@@ -26,3 +26,4 @@
 
 ## Season Four
 * Episode 1-1: [React intro](S04E01-1)
+* Episode 1-2: [React: babel, webpack, shortcutting, ternary and mapping over arrays](S04E01-2)
