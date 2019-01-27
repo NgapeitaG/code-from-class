@@ -23,3 +23,6 @@
 * Episode 2-2: [The time I became one with everything (many-to-many joins)](S03E02-2)
 * Episode 3-1: [Database relationships](S03E03-1)
 * Episode 4: [Prototypal Inheritence](S03E04)
+
+## Season Four
+* Episode 1-1: [React intro](S04E01-1)
