@@ -27,5 +27,5 @@
 ## Season Four
 * Episode 1-1: [React intro](S04E01-1)
 * Episode 1-2: [React: babel, webpack, shortcutting, ternary and mapping over arrays](S04E01-2)
-* Episode 1-3: [React: the virtual DOM and class-based components](S04E01-2)
-* Episode 2-1: [React: stateful components and event handlers](S04E01-2)
+* Episode 1-3: [React: the virtual DOM and class-based components](S04E01-3)
+* Episode 2-1: [React: stateful components and event handlers](S04E02-1)
