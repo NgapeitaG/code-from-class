@@ -30,3 +30,4 @@
 * Episode 1-3: [React: the virtual DOM and class-based components](S04E01-3)
 * Episode 2-1: [React: stateful components and event handlers](S04E02-1)
 * Episode 2-2: [Passing functions as props](S04E02-2)
+* Episode 3: [Client-side routing with react-router](S04E03)
