@@ -1,0 +1,54 @@
+{
+  "name": "charlottes-web-log-api",
+  "version": "0.3.0",
+  "description": "A spider's blog about her web",
+  "repository": "https://github.com/dev-academy-challenges/charlottes-web-log-api.git",
+  "main": "server/index.js",
+  "author": "EDA",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server & webpack --watch",
+    "client": "webpack --watch",
+    "start": "webpack && node server",
+    "knex": "knex",
+    "reseed": "rm server/db/dev.sqlite3 && knex migrate:latest && knex seed:run",
+    "test": "jest --watch"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
+    ]
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>tests/setup.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.6",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-router-dom": "^4.3.1",
+    "semantic-ui-react": "^0.83.0",
+    "sqlite3": "^4.0.4",
+    "superagent": "^4.0.0-beta.5",
+    "webpack": "^3.12.0"
+  }
+}
