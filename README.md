@@ -35,3 +35,4 @@
 ## Season Five
 * Episode 1-1: [APIs - wow!!!](S05E01-1)
 * Episode 1-2: [charlottes-web-log-api walkthrough](S05E01-2)
+* Episode 2: [Consuming APIs with React](S05E02)
