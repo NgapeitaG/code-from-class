@@ -31,4 +31,9 @@
 * Episode 2-1: [React: stateful components and event handlers](S04E02-1)
 * Episode 2-2: [Passing functions as props](S04E02-2)
 * Episode 3: [Client-side routing with react-router](S04E03)
-* Episode 4: [React and forms](S04E04)
+
+## Season Five
+* Episode 1-1: [APIs - wow!!!](S05E01-1)
+* Episode 1-2: [charlottes-web-log-api walkthrough](S05E01-2)
+* Episode 2: [Consuming APIs with React](S05E02)
+* Episode 4-2: [Consuming external APIs with React](S05E04-2)
