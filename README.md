@@ -31,3 +31,4 @@
 * Episode 2-1: [React: stateful components and event handlers](S04E02-1)
 * Episode 2-2: [Passing functions as props](S04E02-2)
 * Episode 3: [Client-side routing with react-router](S04E03)
+* Episode 4: [React and forms](S04E04)
