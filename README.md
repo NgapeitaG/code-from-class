@@ -39,4 +39,5 @@
 * Episode 4-2: [Consuming external APIs with React](S05E04-2)
 
 ## Season Six
-* Episode 1: [Redux Introduction](S06E01)
+* Episode 1-1: [Redux Introduction](S06E01-1)
+* Episode 1-2: [Dispatching actions to Redux from events](S06E01-2)
