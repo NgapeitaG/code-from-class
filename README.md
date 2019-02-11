@@ -36,7 +36,7 @@
 * Episode 1-1: [APIs - wow!!!](S05E01-1)
 * Episode 1-2: [charlottes-web-log-api walkthrough](S05E01-2)
 * Episode 2: [Consuming APIs with React](S05E02)
-* Episode 4-2: [Consuming external APIs with React](S05E04-2)
+* Episode 4: [Consuming external APIs with React](S05E04)
 
 ## Season Six
 * Episode 1-1: [Redux Introduction](S06E01-1)
