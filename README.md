@@ -43,3 +43,4 @@
 * Episode 1-2: [Dispatching actions to Redux from events](S06E01-2)
 * Episode 2-1: [The React/Redux marriage ceremony](S06E02-1)
 * Episode 2-2: [Testing action creators and reducers](S06E02-2)
+* Episode 3: [Async actions and redux-thunk](S06E03)
