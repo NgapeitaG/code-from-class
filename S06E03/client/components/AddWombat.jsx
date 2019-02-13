@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 
-import {addWombat} from '../actions'
+import {saveWombat} from '../actions'
 
 class AddWombat extends React.Component {
   constructor (props) {
@@ -18,7 +18,7 @@ class AddWombat extends React.Component {
   }
 
   handleSave = () => {
-    this.props.dispatch(addWombat(this.state.wombat))
+    this.props.dispatch(saveWombat(this.state.wombat))
     this.setState({
       wombat: ''
     })

@@ -6,6 +6,8 @@ const count = (state = initialCountState, action) => {
       return state + 1
     case 'DEL_WOMBAT':
       return state - 1
+    case 'RECEIVING_WOMBATS':
+      return action.wombats.length
     default:
       return state
   }

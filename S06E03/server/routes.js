@@ -16,6 +16,13 @@ router.get('/wombats', (req, res) => {
 })
 
 router.post('/wombats', (req, res) => {
+  // Make up and error and bail out
+  if (req.body.name === 'abc') {
+    return res.status(500).json({
+      error: 'What kind of name is "abc"?!'
+    })
+  }
+
   const newWombat = req.body
   db.saveNewWombat(newWombat)
   setTimeout(() => {

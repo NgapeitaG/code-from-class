@@ -3,9 +3,9 @@ const initialWombatState = []
 const wombats = (state = initialWombatState, action) => {
   switch (action.type) {
     case 'ADD_WOMBAT':
-      return [...state, action.wombat]
+      return [...state, {name: action.wombat}]
     case 'DEL_WOMBAT':
-      return state.filter((wombat) => wombat !== action.wombat)
+      return state.filter(wombat => wombat.name !== action.wombat)
     case 'RECEIVING_WOMBATS':
       return action.wombats
     default:

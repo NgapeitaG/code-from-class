@@ -29,7 +29,7 @@ class Wombats extends React.Component {
             return (
               <li key={wombat.name}>
                 {wombat.name} {' '}
-                <a href="#" onClick={this.handleDelete(wombat)}>x</a>
+                <a href="#" onClick={this.handleDelete(wombat.name)}>x</a>
               </li>
             )
           })}
