@@ -8,7 +8,8 @@ const wally = people.find(function (person) {
   return person.name === 'Wally'
 
 // wally has a find function within it which will go in the people const to find a person
-// it will return a name if 'Wally'is identified or equal to
+// it will return a name if 'Wally'is equal to a name in the people const
+
 
   // This is equivalent to:
   if (person.name === 'Wally') {
