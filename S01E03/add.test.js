@@ -23,3 +23,6 @@ test('Test add function works for numbers', () => {
   expect(actual).toBe(expected)
 })
 // Asserting that we expect what we have to be the same as expected
+
+// Yarn install
+// yarn test
