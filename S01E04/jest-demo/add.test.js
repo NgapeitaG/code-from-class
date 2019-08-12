@@ -29,3 +29,10 @@ test('add can add 3 + 4', () => {
   // Assert
   expect(actual).toBe(expected)
 })
+
+// yarn install
+// yarn run
+// choose jest
+// this will run your test.js file and check if your test is correct
+// Jest is a simple framework to use to make testing easier
+// Here's a basic Jest test: test("test some basic js", () => { expect(2+2 === 4).toBeTruthy()...
