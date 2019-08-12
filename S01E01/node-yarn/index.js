@@ -2,6 +2,7 @@ const cowsay = require("cowsay")
 const colors = require("colors")
 
 const output = cowsay.say({
+	console.log('output:', output)
 	text : colors.rainbow("I am a cat"),
 	e : colors.inverse("88"),
 	T : colors.magenta("UU")
@@ -13,5 +14,4 @@ console.log(output)
 // Add/install the wrap console log extension on VS Code
 
 // const colouredOutput = colors.rainbow(output)
-
 // console.log(colouredOutput)
