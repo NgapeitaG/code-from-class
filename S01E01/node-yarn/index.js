@@ -10,6 +10,7 @@ const output = cowsay.say({
 console.log(output)
 
 // The console is on google chrome
+// Add/install the wrap console log extension on VS Code
 
 // const colouredOutput = colors.rainbow(output)
 
