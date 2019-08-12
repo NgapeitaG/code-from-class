@@ -1,0 +1,2 @@
+These files use the import, export method to export functions to be executed in another js file when node (filename) is used 
+in the terminal.

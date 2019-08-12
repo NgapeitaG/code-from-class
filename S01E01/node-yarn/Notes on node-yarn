@@ -1,1 +1,4 @@
 Node yarn is where all your dependancies and packages are put in.
+
+All the files in Node-yarn give an example of stating the dependancies you want in your package.json file and then using node (file name)
+in your terminal to see the dependancies in action.
