@@ -7,6 +7,7 @@ console.log(colors.rainbow(cowsay.say({
   e: 'oO',
   T: 'U '
 })))
+// console logs colors with a rainbow property, a parametre of cowsay with the object that contains text.
 
 //yarn install
 // yarn run or yarn start
