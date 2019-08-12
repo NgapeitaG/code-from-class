@@ -10,8 +10,7 @@ const wally = people.find(function (person) {
 // wally has a find function within it which will go in the people const to find a person
 // it will return a name if 'Wally'is equal to a name in the people const
 
-
-  // This is equivalent to:
+// This is equivalent to:
   if (person.name === 'Wally') {
     return true
   } else {
@@ -40,6 +39,7 @@ const produce = [
 ]
 
 const shortProduce = produce.filter(yum => yum.length <= 6)
+// console logs the values with 6 or less letters
 
 // console.log(produce)
 // console.log(shortProduce)
@@ -62,7 +62,7 @@ const harakeke = [
   'Ben',
   'Riki'
 ]
-
+// harakeke is a const which contains an array of names
 const capitalisedNames = harakeke.map(student => student.toUpperCase())
 
 // console.log(capitalisedNames)
