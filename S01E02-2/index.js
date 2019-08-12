@@ -6,3 +6,8 @@ console.log(colors.rainbow(cowsay.say({
   e: 'oO',
   T: 'U '
 })))
+
+//yarn install
+// yarn run or yarn start
+// node index.js
+// text will be displayed in console in various colours
