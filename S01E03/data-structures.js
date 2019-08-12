@@ -17,8 +17,9 @@ const bryce = {
     }
   }
 }
-
 // console.log(bryce.papers.CompSci373.exam)
 
 console.log(Object.keys(bryce))
 console.log(Object.values(bryce))
+// will console log all keys/headers of bryce object
+// will display all the values excluding keys in the bryce object
