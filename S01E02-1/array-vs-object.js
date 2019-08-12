@@ -11,4 +11,4 @@ const obj = {
   phoneNumber: '021-555-555',
   country: 'New Zealand'
 }
-// An object is an object which contains it's own specific properties.
+// An object is an object which contains it's own specific properties.ls
