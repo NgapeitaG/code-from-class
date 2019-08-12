@@ -3,3 +3,4 @@ function add (a, b) {
 }
 
 module.exports = add
+// Enables an export of the add function to other files
