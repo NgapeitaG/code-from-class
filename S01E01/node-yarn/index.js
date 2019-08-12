@@ -17,3 +17,4 @@ console.log(output)
 
 // Install yarn
 // type yarn install in terminal, then yarn run or yarn start
+// type node index.js to see console.log
