@@ -2,7 +2,7 @@ const cowsay = require("cowsay")
 const colors = require("colors")
 
 const output = cowsay.say({
-	console.log('output:', output)
+
 	text : colors.rainbow("I am a cat"),
 	e : colors.inverse("88"),
 	T : colors.magenta("UU")
