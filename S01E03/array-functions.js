@@ -71,3 +71,4 @@ const capitalisedNames = harakeke.map(student => student.toUpperCase())
 const fn = (text) => console.log(text)
 
 fn('Hello!')
+// Only text displayed in the console when executed with node
