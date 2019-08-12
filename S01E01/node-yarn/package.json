@@ -8,3 +8,8 @@
     "cowsay": "^1.4.0"
   }
 }
+
+// Dependancies are the packages which your app depends on
+// Package.json keeps track of all the packages we depend on
+// In this case, the dependancies are colors and cowsay which are packages with code in them
+
