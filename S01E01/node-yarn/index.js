@@ -9,9 +9,11 @@ const output = cowsay.say({
 })
 
 console.log(output)
+// Runs I am a cat and displays a cow using numbers and letters
 
-// The console is on google chrome
-// Add/install the wrap console log extension on VS Code
 
 // const colouredOutput = colors.rainbow(output)
 // console.log(colouredOutput)
+
+// Install yarn
+// type yarn install in terminal, then yarn run or yarn start
