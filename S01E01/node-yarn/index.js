@@ -9,6 +9,8 @@ const output = cowsay.say({
 
 console.log(output)
 
+// The console is on google chrome
+
 // const colouredOutput = colors.rainbow(output)
 
 // console.log(colouredOutput)
