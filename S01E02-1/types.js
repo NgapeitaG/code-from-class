@@ -1,3 +1,4 @@
+// This document looks at values within a const and console logs the value/data types
 const types = {
   str: 'hello',
   bool: true,
