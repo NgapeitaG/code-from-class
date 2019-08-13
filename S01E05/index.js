@@ -45,3 +45,6 @@ server.post('/adduser', (req, res) => {
   console.log(req.body)
   res.send('Welcome new user! ' + req.body.email)
 })
+
+// Run yarn dev in the command line/terminal
+// Go to port 3000 in your browser and view the index.js file
