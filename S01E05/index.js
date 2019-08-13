@@ -19,6 +19,8 @@ server.get('/harakeke', (req, res) => {
   console.log('Hit /harakeke')
   res.send('<h1 style="color: red">Harakeke is awesome!</h1>')
 })
+// The server does not display any of this as /harakeke is non-existent. 
+// Neither are the other pages below
 
 server.get('/awesome/:name', (req, res) => {
   console.log('Hit /awesome')
