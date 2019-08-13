@@ -1,8 +1,10 @@
 const game = require('../game')
+// requires the game.js file
 
 test('test setup working', function () {
   expect(true).toBeTruthy()
 })
+// This runs test on the command line with yarn test
 
 test('scores a gutterball frame', function () {
   const frame = [0, 0]
