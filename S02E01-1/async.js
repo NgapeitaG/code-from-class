@@ -17,8 +17,8 @@ function showData (err, data) {
     console.log(data)
   }
 }
-// A function for showing the data in our file
+// A function for showing the data in our file on the console
 
 getData('data.txt', showData)
 console.log('All done!')
-// Gets and shows data
+// executes and displays the callback function getData after the 'All done' data shows in the console
