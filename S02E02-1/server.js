@@ -33,7 +33,7 @@ server.get('/', (req, res) => {
   res.render('home', data)
 })
 
-server.get('/special', (req, res) => {
+server.get('/special', (_req, res) => {
   res.render('supercool', {
     layout: 'special',
     name: 'Don'
