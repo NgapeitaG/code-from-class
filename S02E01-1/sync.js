@@ -13,6 +13,7 @@ function getData (callback) {
   callback(null, data)
 }
 // This is displayed in the console
+// A callback is a function that is to be executed after another function has finished executing
 
 function showData (err, data) {
   if (err) {
