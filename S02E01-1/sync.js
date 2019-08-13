@@ -12,6 +12,7 @@ function getData (callback) {
   }
   callback(null, data)
 }
+// This is displayed in the console
 
 function showData (err, data) {
   if (err) {
@@ -29,3 +30,4 @@ function showData (err, data) {
 getData(showData)
 
 console.log('All done!')
+// This displays in the console 
