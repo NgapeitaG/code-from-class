@@ -15,6 +15,7 @@ function getData (callback) {
 // This is displayed in the console
 // A callback is a function that is to be executed after another function has finished executing
 // The callback is passed two arguments (err, data), where data is the contents of the file.
+
 function showData (err, data) {
   if (err) {
     console.error(err)
