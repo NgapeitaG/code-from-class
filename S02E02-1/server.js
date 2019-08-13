@@ -11,15 +11,15 @@ server.set('view engine', 'hbs')
 server.get('/', (req, res) => {
   const data = {
     user: {
-      name: 'Don',
-      loves: 'beach',
+      name: 'Ngapeita',
+      loves: 'friends',
       friends: [
         {
-          name: 'Aubrey'
+          name: 'Katarina'
         }, {
-          name: 'Francine'
+          name: 'Sheeva'
         }, {
-          name: 'Ben'
+          name: 'Iris'
         }
       ]
     },
