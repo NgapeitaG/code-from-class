@@ -32,3 +32,11 @@ test('scores a spare frame', function () {
   expect(actual).toBe(expected)
 })
 // If they knock down all pins, then the player gets to play another round
+
+test('scores a single strike frame', function () {
+  const frame = [6, 4]
+  const nextFrame = [0, 0]
+  const expected = 10
+  const actual = game.scoreFrame(frame)
+  expect(actual).toBe(expected)
+})
