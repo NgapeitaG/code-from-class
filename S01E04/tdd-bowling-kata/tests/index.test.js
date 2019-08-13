@@ -1,5 +1,7 @@
 const game = require('../game')
 // requires the game.js file
+//references the code we intend to test
+// ../ before game means we're going back into another directory
 
 test('test setup working', function () {
   expect(true).toBeTruthy()
