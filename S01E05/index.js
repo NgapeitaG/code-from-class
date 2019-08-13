@@ -13,6 +13,7 @@ server.get('/', (req, res) => {
   console.log('Hit root route')
   res.send('Hello world!')
 })
+// This is what we see on our browser
 
 server.get('/harakeke', (req, res) => {
   console.log('Hit /harakeke')
