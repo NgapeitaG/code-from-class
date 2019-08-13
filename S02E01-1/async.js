@@ -4,7 +4,6 @@ const path = require('path')
 
 function getData (file, callback) {
   const filepath = path.join(__dirname, file)
-  // fs filepath creates a placeholder to the filepath of a file
   // creates a const which makes a path to our file which is data.txt
 
   fs.readFile(filepath, 'utf8', callback)
