@@ -47,4 +47,4 @@ server.post('/adduser', (req, res) => {
 })
 
 // Run yarn dev in the command line/terminal
-// Go to port 3000 in your browser and view the index.js file
+// Go to Localhost:3000 in your browser and view the index.js file
