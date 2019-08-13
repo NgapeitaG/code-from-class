@@ -4,7 +4,7 @@ const fs = require('fs')
 module.exports = {
   getData
 }
-// Exports the getData function which is a callback function
+// Exports the getData function which is a callback function to test later
 
 function getData (filename, callback) {
   fs.readFile(filename, 'utf-8', (err, data) => {
