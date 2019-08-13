@@ -18,6 +18,8 @@ function showData (err, data) {
     console.log(data)
   }
 }
+// A function for showing the data in our file
 
 getData('data.txt', showData)
 console.log('All done!')
+// Gets and shows data
