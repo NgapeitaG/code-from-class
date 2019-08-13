@@ -16,4 +16,5 @@ function getData (filename, callback) {
   })
 }
 // fs.readfile which read files within the same directory as this file
+// fs readfile asynchronously reads the entire contents of a file
 // A callback function which reads a file and will either return an error or the data read in the file
