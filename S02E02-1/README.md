@@ -1,4 +1,4 @@
-# Server-side rendering with Handlebars
+# Week 2 - Server-side rendering with Handlebars
 
 ## Steps
 
