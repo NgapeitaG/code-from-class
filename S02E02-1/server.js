@@ -41,3 +41,4 @@ server.get('/special', (_req, res) => {
 })
 
 module.exports = server
+// Server.js is what holds the data we see and sends it to our browser in the server
